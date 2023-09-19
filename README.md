@@ -1,4 +1,4 @@
 # stemgen.github.io
-TBD
+Pretty site coming soon
 
-[Temp sounds link](https://github.com/julian-parker/stemgen/tree/main/examples/sounds/test_set)
+[Temp example sounds link](https://github.com/julian-parker/stemgen/tree/main/examples/sounds/test_set)
