@@ -1,7 +1,7 @@
 # StemGen: A music generation model that listens
 Julian Parker, Janne Spijkervet, Katerina Kosta, Furkan Yesiler, Boris Kuznetsov, Ju-Chiang Wang, Matt Avent, Jitong Chen, Duc Le
 
-Accepted at ICASSP24
+*Accepted at ICASSP24*
 
 ## Contents
 {:.no_toc}
@@ -125,7 +125,14 @@ This example is targeted to show how the models can respond to harmony in a musi
 |Mixed| <audio controls preload="metadata"><source src="../examples/sounds/iterative_generation/internal/layering_from_chords/1-mix.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="../examples/sounds/iterative_generation/internal/layering_from_chords/2-mix.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="../examples/sounds/iterative_generation/internal/layering_from_chords/3-mix.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
 
-###  Melody layering
+###  Deep iterative layering
+
+In this example we start generation from silence, and repeatedly ask the model to generate a piano stem, which is layered on top of the existing context (somewhat inspired by [Alvin Lucier](https://www.youtube.com/watch?v=fAxHlLK3Oyk)). We go through 9 iterations, after which we ask the model to generate a string stem and a bass stem. This example demonstrates the ability of the model to senstively add musical content even when presented with a musically dense input, whilst maintaining rhythmic and harmonic coherance.
+
+<audio controls preload="metadata"><source src="../examples/sounds/iterative_generation/slakh/melody_layering/sequential.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> 
+
+In this audio example the iterations are presented sequentially. The raw iterations and stems are available [here](https://github.com/julian-parker/stemgen/tree/main/examples/sounds/iterative_generation/slakh/melody_layering).
+
 #### `slakh` 
 
 |Iteration| Conditioning| Context| Generated|
