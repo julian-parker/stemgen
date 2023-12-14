@@ -142,8 +142,5 @@ Using this device, a user can build up a musical composition interactively in re
 
 The below videos give two examples of improvisations with the device.
 
-1bDLGIsy7Jc
-
-| Lofi | 4/4 |
-|-------|-------|
-| {% include youtube.html id="3eiSohroGwU" %}| {% include youtube.html id="1bDLGIsy7Jc" %}|
+{% include youtube.html id="3eiSohroGwU" %}
+{% include youtube.html id="1bDLGIsy7Jc" %}
