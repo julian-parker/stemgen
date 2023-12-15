@@ -5,4 +5,4 @@ Julian Parker, Janne Spijkervet, Katerina Kosta, Furkan Yesiler, Boris Kuznetsov
 
 Listen to examples [here](https://julian-parker.github.io/stemgen/)
 
-Read the paper [here]
+Read the paper [here](https://arxiv.org/abs/2312.08723)
