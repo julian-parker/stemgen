@@ -150,3 +150,5 @@ The below videos give two examples of improvisations with the device.
 
 {% include youtube.html id="3eiSohroGwU" %}
 {% include youtube.html id="1bDLGIsy7Jc" %}
+
+This real-time device was built with the additional collaboration of David Trevelyan, Gleb Mineev and Peter Glushkov.
