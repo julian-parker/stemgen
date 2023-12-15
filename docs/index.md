@@ -1,6 +1,7 @@
 # StemGen: A music generation model that listens
 Julian Parker, Janne Spijkervet, Katerina Kosta, Furkan Yesiler, Boris Kuznetsov, Ju-Chiang Wang, Matt Avent, Jitong Chen, Duc Le
 
+[arXiv](https://arxiv.org/abs/2312.08723)
 *Accepted at ICASSP24*
 
 ## Contents
@@ -10,7 +11,7 @@ Julian Parker, Janne Spijkervet, Katerina Kosta, Furkan Yesiler, Boris Kuznetsov
 {:toc}
 
 ## Overview
-StemGen is an end-to-end music generation model, trained to listen to musical context and respond appropriately. It's built on a non-autoregressive language-model type architecture similar to [SoundStorm](https://google-research.github.io/seanet/soundstorm/examples/) and [VampNet](https://hugo-does-things.notion.site/VampNet-Music-Generation-via-Masked-Acoustic-Token-Modeling-e37aabd0d5f1493aa42c5711d0764b33). More details in the paper: arxiv link.
+StemGen is an end-to-end music generation model, trained to listen to musical context and respond appropriately. It's built on a non-autoregressive language-model type architecture similar to [SoundStorm](https://google-research.github.io/seanet/soundstorm/examples/) and [VampNet](https://hugo-does-things.notion.site/VampNet-Music-Generation-via-Masked-Acoustic-Token-Modeling-e37aabd0d5f1493aa42c5711d0764b33). More details are available in the [paper](https://arxiv.org/abs/2312.08723).
 
 This page presents a number of example outputs from models of this architecture.
 
