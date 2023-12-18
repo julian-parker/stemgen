@@ -20,11 +20,11 @@ This page presents a number of example outputs from models of this architecture.
 
 We present examples from three different models here:
 
-|Name|Dataset|Conditioning|Tokenizer|
-|-|-|-|-|
-|`slakh` | [Slakh2100](http://www.slakh.com) | Target instrument category| [32kHz Encodec](https://github.com/facebookresearch/audiocraft)
-|`internal`| internal dataset of 500 hours of human-played music available in individual instrument stems| Target instrument category| [32kHz Encodec](https://github.com/facebookresearch/audiocraft)
-|`mingus` *|  Pretrained on 500 hours of synthetic data from an internal symbolic music generation model. Fine tuned on 2hrs of high quality human composed and produced music.| Genre category, target stem category| [stereo 48kHz Encodec](https://github.com/facebookresearch/audiocraft)
+|Name|Dataset|Conditioning|Tokenizer|Params|
+|-|-|-|-|-|
+|`slakh` | [Slakh2100](http://www.slakh.com) | Target instrument category| [32kHz Encodec](https://github.com/facebookresearch/audiocraft)|~250M |
+|`internal`| internal dataset of 500 hours of human-played music available in individual instrument stems| Target instrument category| [32kHz Encodec](https://github.com/facebookresearch/audiocraft)|~250M|
+|`mingus` *|  Pretrained on 500 hours of synthetic data from an internal symbolic music generation model. Fine tuned on 2hrs of high quality human composed and produced music.| Genre category, target stem category| [stereo 48kHz Encodec](https://github.com/facebookresearch/audiocraft)|~250M|
 
 \* not presented in paper
 ## Test set examples
